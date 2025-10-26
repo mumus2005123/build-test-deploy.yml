@@ -12,3 +12,6 @@ jobs:
           node-version: '18.x'
       - run: npm install
       - run: npm run build 
+      - name: Install dependencies
+        run: npm install
+        working-directory: ./correct/path/to/your/project
